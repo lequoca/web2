@@ -1,0 +1,111 @@
+@charset "utf-8";
+#left{
+	width:400px;
+	height:600px;
+	float:left;
+}
+#imgbig{
+	width:250px;
+	height:300px;
+	clear:both;
+}
+#anh{
+	padding-left:70px;
+	margin-top:70px;
+}
+#anh1{
+	margin-top:10px;
+	float:left;
+	margin-left:40px;
+}
+#imgsmall{
+	width:80px;
+	height:120px;
+}
+#imgsmall:hover{
+	cursor:pointer;
+}
+#right{
+	float:left;
+	height:400px;
+	width:900px;
+	margin-left:20px;
+	}
+h2{
+	padding-left:200px;
+	color:red;
+}
+h3{
+	padding-left:200px;
+	color:#0C3;
+	font-size:24px;
+}
+p{
+	padding-left:200px;
+}
+#dathang{
+	width:100px;
+	height:50px;
+}
+#thoigian{
+	font-size:36px;
+	font-weight:bold;
+}
+#footer2{
+	width:1500px;
+	height:300px;
+	clear:both;
+	background-color:#999;
+}
+#ten{
+	float:left;
+	font-size:24px;
+	color:white;
+	font-weight:bold;
+}
+h4{
+	padding-top:50px;
+	color:red;
+	padding-left:300px;
+}
+#thoat{
+	float: left;
+}
+#out{
+	width:100px;
+	height:50px;
+	margin-left: 20px;
+	margin-top: 15px;
+}
+#footleft{
+	margin-left: 80px;
+	padding-top: 20px;
+	border-right: solid 1px white;
+	width: 300px;
+	height: 280px;
+	float: left;
+	color: white;
+}
+h5{
+	font-size: 20px;
+	font-weight: 100;
+}
+#footright{
+	margin-left: 80px;
+	padding-top: 10px;
+	width: 500px;
+	height: 280px;
+	float: left;
+	color: white;
+}
+#ykien{
+	width: 600px;
+	height: 50px;
+}
+#gui{
+	width: 100px;
+	height: 30px;
+}
+
+/* CSS Document */
+

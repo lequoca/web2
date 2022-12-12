@@ -1,0 +1,238 @@
+<html>
+    <head>
+		<script src="../java/pizza1.js"></script>
+		<link rel="stylesheet" type="text/css" href="../css/banhkem.css">
+        <title>Đặt Hàng</title>
+    </head>
+    <body>
+        <div id="khung">
+           <table>
+			   <tr>
+				   <td>Họ Và Tên:</td>
+			   </tr>
+			   <tr><td><input type="text" placeholder="Nhập Họ Tên" id="hoten"></td></tr>
+			   <tr>
+				   <td>Số Điện Thoại:</td>
+			   </tr>
+			   <tr><td><input type="text" placeholder="Nhập Số Điện Thoại" id="sdt"></td></tr>
+			   <tr>
+				   <td>Huyện/Quận</td>
+			   </tr>
+			   <tr><td><select id="huyen">
+				   <option>Quận 1</option>
+				   <option>Quận 2</option>
+				   <option>Quận 3</option>
+				   <option>Quận 4</option>
+				   <option>Quận 5</option>
+				   <option>Quận 6</option>
+				   <option>Quận 7</option>
+				   <option>Quận 8</option>
+				   <option>Quận 9</option>
+				   <option>Quận 10</option>
+				   <option>Quận 11</option>
+				   <option>Quận 12</option>
+				   <option>Quận Bình Tân</option>
+				   <option>Quận Bình Thạnh</option>
+				   <option>Quận Gò Vấp</option>
+				   <option>Quận Tân Phú</option>
+				   <option>Quận Phú Nhuận</option>
+				   <option>Quận Tân Bình</option>
+				   <option>Huyện Bình Chánh</option>
+				   <option>Huyện Cần Giờ</option>
+				   <option>Huyện Hóc Môn</option>
+				   <option>Huyện Củ Chi</option>
+				   <option>Huyện Nhà Bè</option>
+				   </select></td></tr>
+			    <tr>
+				   <td>Xã/Phường</td>
+			   </tr>
+			   <tr><td><select id="xa">
+				     <option>Phường 1 </option>
+				   <option>Phường 2</option>
+				   <option>Phường 3</option>
+				   <option>Phường 4</option>
+				   <option>Phường 5</option>
+				   <option>Phường 6</option>
+				   <option>Phường 7</option>
+				   <option>Phường 8</option>
+				   <option>Phường 9</option>
+				   <option>Phường 10</option>
+				   <option>Phường 11</option>
+				   <option>Phường 12</option>
+				   <option>Phường 13</option>
+				   <option>Phường 14</option>
+				   <option>Phường 15 </option>
+				   <option>Phường 16</option>
+				   <option>Phường 17</option>
+				   <option>Phường 18</option>
+				   <option>Phường 19</option>
+				   <option>Phường 20</option>
+				   <option>Phường 21</option>
+				   <option>Phường 22</option>
+				   <option>Phường 23</option>
+				   <option>Phường 24</option>
+				   <option>Phường 25</option>
+				   <option>Phường 26</option>
+				   <option>Phường 27</option>
+				   <option>Phường 28</option>
+				<option>Phường Tân Định</option>
+				   <option>Phường Tân Định</option>
+				   <option>Phường Đa Cao</option>
+				   <option>Phường Bến Nghé </option>
+				   <option>Phường Bến Thành </option>
+				   <option>Phường Nguyễn Thái Bình </option>
+				   <option>Phường Phạm Ngũ Lão </option>
+				   <option>Phường Cầu Ông Lãnh </option>
+				   <option>Phường Cô Giang </option>
+				   <option>Phường Nguyễn Cư Trinh </option>
+				   <option>Phường Cầu Kho </option>
+				   <option>Phường Thạnh Xuân </option>
+				   <option>Phường Thạnh Lộc </option>
+				   <option>Phường Hiệp Thành </option>
+				   <option>Phường Thới An </option>
+				   <option>Phường Tân Chánh Hiệp </option>
+				   <option>Phường An Phú Đông </option>
+				   <option>Phường Tân Thới Hiệp </option>
+				   <option>Phường Trung Mỹ Tây </option>
+				   <option>Phường Tân Hưng Thuận</option>
+				   <option>Phường Đông Hưng Thuận</option>
+				   <option>Phường Tân Thới Nhất</option>
+				   <option>Phường Tân Sơn Nhì </option>
+				   <option>Phường Tây Thạnh</option>
+				   <option>Phường Sơn Kỳ </option>
+				   <option>Phường Tân Qúy </option>
+				   <option>Phường Tân Thành </option>
+				   <option>Phường Phú Thọ Hòa </option>
+				   <option>Phường Phú Thạnh</option>
+				   <option>Phường Phú Trung </option>
+				   <option>Phường Hòa Thạnh </option>
+				   <option>Phường Hiệp Tân </option>
+				   <option>Phường Tân Thới Hòa </option>
+				   <option>Phường Linh Xuân </option>
+				   <option>Phường Bình Chiểu </option>
+				   <option>Phường Linh Trung </option>
+				   <option>Phường Tam Bình</option>
+				   <option>Phường Tam Phú </option>
+				   <option>Phường Hiệp Bình Phước</option>
+				   <option>Phường Hiệp Bình Chánh</option>
+				   <option>Phường Linh Chiểu </option>
+				   <option>Phường Linh Tây </option>
+				   <option>Phường Linh Đông </option>
+				   <option>Phường Bình Thọ </option>
+				   <option>Phường Trường Thọ </option>
+				   <option>Phường Long Bình </option>
+				   <option>Phường Long Thạnh Mỹ </option>
+				   <option>Phường Tân Phú</option>
+				   <option>Phường Hiệp Phú</option>
+				   <option>Phường Tăng Nhơn Phú A</option>
+				   <option>Phường  Tăng Nhơn Phú B</option>
+				   <option>Phường Phước Long A </option>
+				   <option>Phường Phước Long B </option>
+				   <option>Phường Trường Thạnh </option>
+				   <option>Phường Long Phước </option>
+				   <option>Phường Long Trường </option>
+				   <option>Phường Phước Bình</option>
+				   <option>Phường Phú Hữu</option>
+				   <option>Phường Thảo Điền</option>
+				   <option>Phường An Phú</option>
+				   <option>Phường An Khánh</option>
+				   <option>Phường Bình Trưng Đông</option>
+				   <option>Phường Bình Trưng Tây</option>
+				   <option>Phường Cát Lái</option>
+				   <option>Phường Thạnh Mỹ Lợi</option>
+				   <option>Phường An Lợi Đông</option>
+				   <option>Phường Thủ Thiêm</option>
+				   <option>Phường Phường Võ Thị Sáu</option>
+				   <option>Phường Bình Hưng Hòa </option>
+				   <option>Phường Bình Hưng Hòa A</option>
+				   <option>Phường Bình Hưng Hòa B</option>
+				   <option>Phường Bình Trị Đông</option>
+				   <option>Phường Bình Trị Đông A</option>
+				   <option>Phường Bình Trị Đông B</option>
+				   <option>Phường Tân Tạo</option>
+				   <option>Phường Tân Tạo A</option>
+				   <option>Phường An Lạc</option>
+				   <option>Phường An Lạc A</option>
+				   <option>Phường Tân Thuận Đông</option>
+				   <option>Phường Tân Thuận Tây</option>
+				   <option>Phường Tân Kiểng</option>
+				   <option>Phường Tân Hưng</option>
+				   <option>Phường Bình Thuận</option>
+				   <option>Phường Tân Quy</option>
+				   <option>Phường Phú Nhuận</option>
+				   <option>Phường Tân Phú</option>
+				   <option>Phường Tân Phong</option>
+				   <option>Phường Phú Mỹ</option>
+				   <option>Thị Trấn Củ Chi </option>
+				   <option>Thị Trấn Hóc Môn </option>
+				   <option>Thị Trấn Tân Túc</option>
+				   <option>Thị Trấn Nhà Bè</option>
+				   <option>Thị Trấn Cần Thạnh</option>
+				   <option>Xã Phú Mỹ Hưng </option>
+				   <option>Xã An Phú </option>
+				   <option>Xã Trung Lập Thượng </option>
+				   <option>Xã An Nhơn Tây</option>
+				    <option>Xã Nhuận Đức</option>
+				    <option>Xã Phạm Văn Cội</option>
+				    <option>Xã Phú Hòa Đông</option>
+				    <option>Xã Trung Lập Hạ</option>
+				    <option>Xã Trung An</option>
+				    <option>Xã Phước Thạnh</option>
+				    <option>Xã Phước Hiệp</option>
+				    <option>Xã Tân An Hội</option>
+				    <option>Xã Phước Vĩnh An</option>
+				     <option>Xã Thái Mỹ</option>
+				    <option>Xã Tân Phú Trung</option>
+				    <option>Xã Tân Thông Hội</option>
+				   <option>Xã Tân Hiệp</option>
+				    <option>Xã Nhị Bình</option>
+				    <option>Xã Đông Thạnh</option>
+				    <option>Xã Tân Thới Nhì</option>
+				    <option>Xã Thới Tam Thôn</option>
+				    <option>Xã Xuân Thới Sơn</option>
+				   <option>Xã Tân Xuân</option>
+				   <option>Xã Xuân Thới Đông</option>
+				   <option>Xã Trung Chánh</option>
+				   <option>Xã Xuân Thới Thượng</option>
+				   <option>Xã Bà Điểm</option>
+				   <option>Xã Phạm Văn Hai</option>
+				   <option>Xã Vĩnh Lộc A</option>
+				   <option>Xã Vĩnh Lộc B</option>
+				   <option>Xã Bình Lợi</option>
+				   <option>Xã Lê Minh Xuân</option>
+				   <option>Xã Tân Nhựt</option>
+				   <option>Xã Tân Kiên</option>
+				   <option>Xã Bình Hưng</option>
+				   <option>Xã Phong Phú</option>
+				   <option>Xã An Phú Tây</option>
+				   <option>Xã Hưng Long</option>
+				   <option>Xã Đa Phước</option>
+				   <option>Xã Tân Qúy Tây</option>
+				   <option>Xã Bình Chánh</option>
+				   <option>Xã Quy Đức</option>
+				   <option>Xã Phước Kiến</option>
+				   <option>Xã Phước Lộc</option>
+				   <option>Xã Nhơn Đức</option>
+				   <option>Xã Phú Xuân</option>
+				    <option>Xã Long Thới</option>
+				   <option>Xã Hiệp Phước</option>
+				   <option>Xã Bình Khánh</option>
+				   <option>Xã Tam Thôn Hiệp</option>
+				    <option>Xã An Thới Đông</option>
+				   <option>Xã Thạnh An</option>
+				   <option>Xã Long Hòa</option>
+				   <option>Xã Lý Nhơn</option>
+				   </select></td></tr>
+			   <tr>
+				   <td>Số Nhà, Đường</td>
+			   </tr>
+				  <tr> <td><input type="text" placeholder="Số Nhà,Đường" id="sonha"></td>
+			   </tr>
+			   <tr><td>Số Lượng</td></tr>
+			   <tr><td><input type="number" placeholder="Nhập Số Lượng" id="soluong"></td></tr>
+			</table>
+			<div id="gui"><input type="button" value="Xác Nhận" id="gui1" onClick="xacnhan()"></div>
+			<div id="gui"><a href="../index.html" target="_parent"><input type="button" value="Quay Lại Trang Chủ" id="gui2"></a></div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,61 @@
+body{
+	background-image: url("../img/background.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#khung{
+	margin: auto;
+	width: 500px;
+	height: 500px;
+	background-color:#76AEC5;
+	margin-top: 50px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	padding-left: 20px;
+	padding-top: 20px;
+	font-weight: bold;
+	
+}
+#hoten{
+	width: 450px;
+	height: 40px;
+	border-radius: 5px;
+}
+#sdt{
+	width: 450px;
+	height: 40px;
+	border-radius: 5px;
+}
+#sonha{
+	width: 450px;
+	height: 40px;
+	border-radius: 5px;
+}
+#soluong{
+	width: 450px;
+	height: 40px;
+	border-radius: 5px;
+}
+#huyen{
+	width: 450px;
+	border-radius: 5px;
+	height: 40px;
+}
+#xa{
+	width: 450px;
+	border-radius: 5px;
+	height: 40px;
+}
+#gui1{
+	width: 150px;
+	height: 40px;
+}
+#gui2{
+	width: 150px;
+	height: 40px;
+}
+#gui{
+	margin-top: 20px;
+	margin-left: 50px;
+	float: left;
+}

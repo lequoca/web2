@@ -1,0 +1,42 @@
+@charset "utf-8";
+ul li{
+	list-style:none;
+	width:220px;
+	height:20px;
+	border:solid 1px #999;
+	padding-left:10px;
+	padding-top:20px;
+	padding-bottom:20px;
+}
+#text{
+	color: black;
+	font-weight:bold;
+	text-decoration:none;
+}
+#mau1{
+	background-color:#CCC;
+}
+#tieude{
+	width:220px;
+	height:20px;
+	border:solid 1px #999;
+	font-weight:bold;
+	text-align:center;
+	font-size:20px;
+	border-top-left-radius:10px;
+	border-top-right-radius:10px;
+	color:white;
+	background-color:#6C6;
+	margin-right:120px;
+}
+#mau1{
+	
+}
+#khung ul li:hover{
+	background-color:#6C9;
+}
+#khung ul li a:hover{
+	color:#fff;;
+}
+/* CSS Document */
+

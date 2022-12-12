@@ -1,0 +1,35 @@
+@charset "utf-8";
+#slideshow {
+   overflow: hidden;
+   height: 610px;
+   width: 728px;
+   margin: 0 auto;
+ }
+.slide-wrapper {
+   width: 2912px;
+   -webkit-animation: slide 9s ease infinite;
+ }
+.slide {
+   float: left;
+   height: 510px;
+   width: 728px;
+ }
+
+@-webkit-keyframes slide {
+   20% {margin-left: 0px;}
+   30% {margin-left: -728px;}
+   50% {margin-left: -728px;}
+   60% {margin-left: -1456px;}
+   80% {margin-left: -1456px;}
+}
+img{
+	width:700px;
+	height:200px;
+}
+@media only screen and (max-width: 640px) {
+	img{
+		width:400px;
+		height:200px;
+	}
+}/* CSS Document */
+
